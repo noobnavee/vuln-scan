@@ -26,7 +26,6 @@ pip install requests beautifulsoup4 python-nmap python-whois colorama sqlmap-too
 
 # for collab:-
 ```bash
-# Install required packages
 !pip install requests beautifulsoup4 python-nmap python-whois colorama sqlmap-toolkit paramiko urllib3 dirbuster
 ```
 
