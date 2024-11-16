@@ -1,5 +1,5 @@
 # vuln-scan
-Python Script for Vulnerability Scaning
+Python Script for Website-Vulnerability Scaning
 
 # Website Vulnerability Scanner
 
