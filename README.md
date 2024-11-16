@@ -3,28 +3,32 @@ Python Script for Vulnerability Scaning
 
 # Website Vulnerability Scanner
 
-## Introduction
-This Python script is designed to scan websites for various security vulnerabilities. It includes checks for certificate validation, security headers, open ports, WHOIS information, and more. The script generates a user-friendly report with a summary of vulnerabilities, detailed scan results, and recommendations for fixing identified issues.
+## Description
+This Python script is designed to scan websites for security vulnerabilities and generate a detailed report with actionable recommendations for improving security.
 
 ## Features
-1. **Certificate Validation**: Checks for proper SSL/TLS certificate configuration.
-2. **Security Headers Check**: Verifies the presence of important security headers.
+1. **Certificate Validation**: Ensures proper SSL/TLS configuration.
+2. **Security Headers Check**: Verifies the presence of essential security headers.
 3. **Open Ports Scanning**: Uses nmap to scan for open ports.
 4. **WHOIS Information Gathering**: Retrieves WHOIS data for the target domain.
 5. **Detailed Report Generation**:
-    - **Vulnerability Summary**: Summarizes found vulnerabilities.
-    - **Detailed Scan Results**: Provides comprehensive details for each scan component.
-    - **Recommendations**: Offers specific recommendations for fixing identified issues.
-    - **Colored Output**: Enhances readability with color-coded results.
+   - **Vulnerability Summary**: Provides a summary of found vulnerabilities.
+   - **Detailed Scan Results**: Offers comprehensive details for each scan component.
+   - **Recommendations**: Gives specific recommendations for fixing identified issues.
+   - **Colored Output**: Enhances readability with color-coded results.
+
+## Installation
+To run this script, you need to install the following libraries:
+
+```bash
+# Install required packages
+!pip install requests beautifulsoup4 python-nmap python-whois colorama sqlmap-toolkit paramiko urllib3 dirbuster
+```
 
 ## Important Notes
 - Ensure you have proper authorization before scanning any website.
-- Some features require root/administrator privileges (especially nmap scanning).
+- Some features may require root/administrator privileges (especially nmap scanning).
 - Additional error handling may be needed for production use.
-- Consider adding more security checks based on your needs.
-
-## Usage
-- provide website to be scanned as input and run the script to see the report
 
 ## Ethical Considerations
-- Always perform security testing ethically and with proper authorization.
+Always conduct security testing ethically and with proper authorization.
