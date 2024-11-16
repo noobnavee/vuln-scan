@@ -21,6 +21,11 @@ This Python script is designed to scan websites for security vulnerabilities and
 To run this script, you need to install the following libraries:
 
 ```bash
+pip install requests beautifulsoup4 python-nmap python-whois colorama sqlmap-toolkit paramiko urllib3 dirbuster
+```
+
+# for collab:-
+```bash
 # Install required packages
 !pip install requests beautifulsoup4 python-nmap python-whois colorama sqlmap-toolkit paramiko urllib3 dirbuster
 ```
