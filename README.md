@@ -24,7 +24,7 @@ To run this script, you need to install the following libraries:
 pip install requests beautifulsoup4 python-nmap python-whois colorama sqlmap-toolkit paramiko urllib3 dirbuster
 ```
 
-# for collab:-
+### for collab:-
 ```bash
 !pip install requests beautifulsoup4 python-nmap python-whois colorama sqlmap-toolkit paramiko urllib3 dirbuster
 ```
