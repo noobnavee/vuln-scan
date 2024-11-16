@@ -18,16 +18,8 @@ This Python script is designed to scan websites for security vulnerabilities and
    - **Colored Output**: Enhances readability with color-coded results.
 
 ## Installation
-To run this script, you need to install the following libraries:
 
-```bash
-pip install requests beautifulsoup4 python-nmap python-whois colorama sqlmap-toolkit paramiko urllib3 dirbuster
-```
-
-### for collab:-
-```bash
-!pip install requests beautifulsoup4 python-nmap python-whois colorama sqlmap-toolkit paramiko urllib3 dirbuster
-```
+To run the script, you need to install the following libraries: `requests`, `beautifulsoup4`, `python-nmap`, `python-whois`, `colorama`, `sqlmap-toolkit`, `paramiko`, `urllib3`, and `dirbuster`.
 
 ## Important Notes
 - Ensure you have proper authorization before scanning any website.
