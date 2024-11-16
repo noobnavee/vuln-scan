@@ -26,15 +26,5 @@ This Python script is designed to scan websites for various security vulnerabili
 ## Usage
 - provide website to be scanned as input and run the script to see the report
 
-## To Extend the Functionality
-Consider adding the following features to enhance the script:
-- More detailed SSL/TLS analysis
-- Directory enumeration
-- CMS version detection
-- Custom payload testing
-- Database security testing
-- File permission checking
-- Input validation testing
-
 ## Ethical Considerations
 - Always perform security testing ethically and with proper authorization.
