@@ -1,5 +1,3 @@
-!pip install requests beautifulsoup4 python-nmap python-whois colorama sqlmap-toolkit paramiko urllib3 dirbuster
-
 import requests
 import socket
 import ssl
